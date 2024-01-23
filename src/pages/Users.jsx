@@ -15,7 +15,7 @@ const Users = () => {
         dispatch(getIndex(index))
       }
   return (
-    <div>
+    <div className='container'>
         <AddUserModal />
       <div className="row">
         <h1 className="text-danger text-center">Homework 3</h1>
