@@ -74,6 +74,7 @@ const counterSlice = createSlice({
         state.searchResults.push(action.payload);
       }
       state.modalVisible = false
+      state.defaultValue = ''
     },
     getIndex: (state, action)=> {
         state.index = action.payload
